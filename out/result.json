@@ -1,0 +1,88 @@
+{
+ "dev": {
+  "totals": {
+   "planted": 2122,
+   "found_exact": 2122,
+   "found_any_code": 2122,
+   "false_flags": 0,
+   "baseline_found": 391,
+   "baseline_false": 0,
+   "unparsed_sentences": 0,
+   "unparsed_planted": 0,
+   "valid_sentences": 12468
+  },
+  "by_code": {
+   "ANACHRONISM": {
+    "n": 391,
+    "found": 391
+   },
+   "ATTACKS_ALLY": {
+    "n": 347,
+    "found": 347
+   },
+   "DEAD_LEADER_ACTS": {
+    "n": 331,
+    "found": 331
+   },
+   "ELIMINATED_NATION_ACTS": {
+    "n": 242,
+    "found": 242
+   },
+   "NOT_AT_WAR": {
+    "n": 439,
+    "found": 439
+   },
+   "WRONG_OWNER": {
+    "n": 372,
+    "found": 372
+   }
+  }
+ },
+ "held_out": {
+  "totals": {
+   "planted": 2253,
+   "found_exact": 2253,
+   "found_any_code": 2253,
+   "false_flags": 0,
+   "baseline_found": 354,
+   "baseline_false": 0,
+   "unparsed_sentences": 0,
+   "unparsed_planted": 0,
+   "valid_sentences": 12499
+  },
+  "by_code": {
+   "ALLIANCE_WHILE_AT_WAR": {
+    "n": 293,
+    "found": 293
+   },
+   "ANACHRONISM": {
+    "n": 354,
+    "found": 354
+   },
+   "ATTACKS_ALLY": {
+    "n": 243,
+    "found": 243
+   },
+   "DEAD_LEADER_ACTS": {
+    "n": 236,
+    "found": 236
+   },
+   "ELIMINATED_NATION_ACTS": {
+    "n": 192,
+    "found": 192
+   },
+   "NOT_AT_WAR": {
+    "n": 335,
+    "found": 335
+   },
+   "NO_SUCH_ALLIANCE": {
+    "n": 362,
+    "found": 362
+   },
+   "WRONG_OWNER": {
+    "n": 238,
+    "found": 238
+   }
+  }
+ }
+}

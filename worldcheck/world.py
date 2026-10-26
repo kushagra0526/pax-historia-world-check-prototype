@@ -9,10 +9,12 @@ import re
 TECH_YEAR = {"railway": 1830, "railways": 1830, "telegraph": 1844, "machine guns": 1884, "machine gun": 1884, "airplanes": 1903, "airplane": 1903, "tanks": 1916, "radar": 1935}
 
 PATTERNS = [  # (kind, regex) one family of surface forms per kind
-    ("capture", re.compile(r"^(?P<a>[A-Z][\w ]+?) (?:captures|seizes|annexes) (?P<p>[A-Z][\w ]+?) from (?P<b>[A-Z][\w ]+?)\.?$")),
-    ("war", re.compile(r"^(?P<a>[A-Z][\w ]+?) declares war on (?P<b>[A-Z][\w ]+?)\.?$")),
+    ("capture", re.compile(r"^(?P<a>[A-Z][\w ]+?) (?:captures|seizes|annexes|wrests) (?P<p>[A-Z][\w ]+?) from (?P<b>[A-Z][\w ]+?)\.?$")),
+    ("capture", re.compile(r"^(?P<p>[A-Z][\w ]+?) falls to (?P<a>[A-Z][\w ]+?), taken from (?P<b>[A-Z][\w ]+?)\.?$")),
+    ("war", re.compile(r"^(?P<a>[A-Z][\w ]+?) (?:declares war on|goes to war with) (?P<b>[A-Z][\w ]+?)\.?$")),
     ("alliance", re.compile(r"^(?P<a>[A-Z][\w ]+?) signs an alliance with (?P<b>[A-Z][\w ]+?)\.?$")),
-    ("break", re.compile(r"^(?P<a>[A-Z][\w ]+?) breaks its alliance with (?P<b>[A-Z][\w ]+?)\.?$")),
+    ("alliance", re.compile(r"^(?P<a>[A-Z][\w ]+?) and (?P<b>[A-Z][\w ]+?) sign an alliance\.?$")),
+    ("break", re.compile(r"^(?P<a>[A-Z][\w ]+?) (?:breaks|ends) its alliance with (?P<b>[A-Z][\w ]+?)\.?$")),
     ("leader_dies", re.compile(r"^(?P<l>[A-Z][\w ]+?), (?:ruler|leader) of (?P<a>[A-Z][\w ]+?), (?:dies|is assassinated)\.?$")),
     ("leader_acts", re.compile(r"^(?P<l>[A-Z][\w ]+?) of (?P<a>[A-Z][\w ]+?) (?:addresses|reviews|orders) (?:the )?(?P<what>[\w ]+?)\.?$")),
     ("tech", re.compile(r"^(?P<a>[A-Z][\w ]+?) deploys (?P<t>[a-z ]+?)\.?$")),

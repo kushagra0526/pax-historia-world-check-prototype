@@ -1,0 +1,16 @@
+dev {'planted': 2142, 'found_exact': 2142, 'found_any_code': 2142, 'false_flags': 0, 'baseline_found': 397, 'baseline_false': 0, 'unparsed_sentences': 0, 'unparsed_planted': 0, 'valid_sentences': 12479}
+    ANACHRONISM {'n': 397, 'found': 397}
+    ATTACKS_ALLY {'n': 350, 'found': 350}
+    DEAD_LEADER_ACTS {'n': 337, 'found': 337}
+    ELIMINATED_NATION_ACTS {'n': 241, 'found': 241}
+    NOT_AT_WAR {'n': 444, 'found': 444}
+    WRONG_OWNER {'n': 373, 'found': 373}
+held_out {'planted': 2163, 'found_exact': 1479, 'found_any_code': 1479, 'false_flags': 0, 'baseline_found': 337, 'baseline_false': 0, 'unparsed_sentences': 4697, 'unparsed_planted': 684, 'valid_sentences': 12582}
+    ALLIANCE_WHILE_AT_WAR {'n': 247, 'found': 132}
+    ANACHRONISM {'n': 337, 'found': 337}
+    ATTACKS_ALLY {'n': 235, 'found': 114}
+    DEAD_LEADER_ACTS {'n': 215, 'found': 215}
+    ELIMINATED_NATION_ACTS {'n': 131, 'found': 131}
+    NOT_AT_WAR {'n': 388, 'found': 226}
+    NO_SUCH_ALLIANCE {'n': 395, 'found': 190}
+    WRONG_OWNER {'n': 215, 'found': 134}
